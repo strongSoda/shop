@@ -1,0 +1,37 @@
+body {
+  background-color: #fff;
+}
+.card img {
+
+  height: 230px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.row {
+  margin-bottom: 1.2em;
+}
+
+
+div.card-body{
+  
+  min-height: 40vh;
+  max-height: 40vh;
+  overflow: auto;
+}
+
+div.card {
+  box-shadow: 8px 8px 25px #eff0f1;
+  border-radius: .375rem;
+  /* transition: top bottom .5s ease; */
+}
+
+div.card:hover {
+
+  top: 10px;
+  bottom: 20px;
+  box-shadow: 2px 2px #eff0f1;
+}
